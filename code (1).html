@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="es"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Estilo Ingeniería | Elevando Estándares</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&amp;family=Manrope:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              "colors": {
+                      "on-tertiary-container": "#b6ebff",
+                      "on-error-container": "#93000a",
+                      "secondary": "#5f5e5c",
+                      "inverse-primary": "#ffb3b1",
+                      "error": "#ba1a1a",
+                      "inverse-on-surface": "#f3f0ec",
+                      "surface-container-high": "#ebe8e4",
+                      "on-primary-fixed-variant": "#92001c",
+                      "error-container": "#ffdad6",
+                      "secondary-fixed": "#e5e2de",
+                      "on-surface-variant": "#5c403f",
+                      "on-primary-container": "#ffdad8",
+                      "on-background": "#1c1c1a",
+                      "on-secondary-fixed": "#1c1c1a",
+                      "surface-bright": "#fcf9f5",
+                      "background": "#fcf9f5",
+                      "surface-container": "#f0edea",
+                      "on-secondary-fixed-variant": "#474744",
+                      "on-secondary": "#ffffff",
+                      "surface-tint": "#bf0229",
+                      "outline-variant": "#e5bdbb",
+                      "tertiary-fixed-dim": "#82d1ed",
+                      "surface-container-lowest": "#ffffff",
+                      "on-primary-fixed": "#410007",
+                      "surface-variant": "#e5e2de",
+                      "on-surface": "#1c1c1a",
+                      "surface-dim": "#dcdad6",
+                      "on-secondary-container": "#656461",
+                      "surface": "#fcf9f5",
+                      "tertiary-container": "#006e87",
+                      "on-tertiary": "#ffffff",
+                      "tertiary": "#005468",
+                      "on-tertiary-fixed": "#001f28",
+                      "primary-fixed-dim": "#ffb3b1",
+                      "on-primary": "#ffffff",
+                      "inverse-surface": "#31302e",
+                      "surface-container-highest": "#e5e2de",
+                      "primary": "#9e001f",
+                      "tertiary-fixed": "#b6ebff",
+                      "surface-container-low": "#f6f3ef",
+                      "secondary-fixed-dim": "#c8c6c3",
+                      "on-error": "#ffffff",
+                      "primary-container": "#c8102e",
+                      "outline": "#906f6e",
+                      "on-tertiary-fixed-variant": "#004e60",
+                      "secondary-container": "#e5e2de",
+                      "primary-fixed": "#ffdad8"
+              },
+              "borderRadius": {
+                      "DEFAULT": "0px",
+                      "lg": "0px",
+                      "xl": "0px",
+                      "full": "9999px"
+              },
+              "fontFamily": {
+                      "headline": ["Space Grotesk"],
+                      "body": ["Manrope"],
+                      "label": ["Manrope"]
+              }
+            },
+          },
+        }
+    </script>
+<style>
+        .material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24; }
+        .glass-panel { background: rgba(252, 249, 245, 0.85); backdrop-filter: blur(20px); }
+        .asymmetric-border { border-left: 4px solid #9e001f; }
+        .text-vertical { writing-mode: vertical-rl; transform: rotate(180deg); }
+    </style>
+</head>
+<body class="bg-surface text-on-surface font-body selection:bg-primary selection:text-on-primary">
+<!-- Top Navigation Bar -->
+<nav class="fixed top-0 w-full z-50 h-20 bg-[#fcf9f5] dark:bg-[#1c1c1a] flex justify-between items-center px-12 w-full max-w-none">
+<div class="text-2xl font-black tracking-tighter text-[#1c1c1a] dark:text-[#fcf9f5] font-['Space_Grotesk'] uppercase">
+            Estilo Ingeniería
+        </div>
+<div class="hidden md:flex gap-8">
+<a class="font-['Space_Grotesk'] tracking-tighter uppercase font-bold text-[#9e001f] dark:text-[#c8102e] border-b-2 border-[#9e001f] pb-1 scale-100 active:scale-95 transition-transform transition-colors duration-300" href="#">SOLUCIONES</a>
+<a class="font-['Space_Grotesk'] tracking-tighter uppercase font-bold text-[#1c1c1a] dark:text-[#fcf9f5] opacity-80 hover:text-[#9e001f] dark:hover:text-[#c8102e] scale-100 active:scale-95 transition-transform transition-colors duration-300" href="#">PROYECTOS</a>
+<a class="font-['Space_Grotesk'] tracking-tighter uppercase font-bold text-[#1c1c1a] dark:text-[#fcf9f5] opacity-80 hover:text-[#9e001f] dark:hover:text-[#c8102e] scale-100 active:scale-95 transition-transform transition-colors duration-300" href="#">TECNOLOGÍA</a>
+<a class="font-['Space_Grotesk'] tracking-tighter uppercase font-bold text-[#1c1c1a] dark:text-[#fcf9f5] opacity-80 hover:text-[#9e001f] dark:hover:text-[#c8102e] scale-100 active:scale-95 transition-transform transition-colors duration-300" href="#">NOSOTROS</a>
+</div>
+<button class="bg-[#9e001f] text-white px-6 py-2 font-['Space_Grotesk'] tracking-tighter uppercase font-bold hover:bg-[#c8102e] transition-all duration-300 active:scale-95">
+            CONTÁCTANOS
+        </button>
+</nav>
+<!-- Section 1: Hero -->
+<header class="relative h-[870px] flex items-stretch mt-20 overflow-hidden">
+<!-- Left: Image & Headline -->
+<div class="w-full md:w-[60%] relative flex items-center px-12 md:px-24">
+<div class="absolute inset-0 z-0">
+<img alt="Interior de ascensor moderno" class="w-full h-full object-cover grayscale-[30%]" data-alt="luxury elevator cabin interior with brushed stainless steel walls, recessed led lighting, and polished reflective surfaces in high-end office building" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD9Be4SiA9AOujYLwA8omC1BxR9zZClNdegWmePgKbn1z0BCrJoroQBp9qOQ0KA7sta-UfhFwNPS0g6XuIscrJk2ldjDVrcio4RM6xCtL1GJTMNmijbiwM__k5Xw5ZsV3foWSPOD0LWVbkm8ClBoDyNzkKXe_jgWYuoitFiIY8z0wBcvHs6Us6fkrjj8AEgWbt4AmzCzzrZ4tu8tniIIipuvZ5U2YChzP_vOPytq2JEwNmIf6JyDxk--gL-8Y9vSzfv6o8tDeuJkm0"/>
+<div class="absolute inset-0 bg-on-surface/50"></div>
+</div>
+<div class="relative z-10 max-w-2xl">
+<h1 class="font-headline text-5xl md:text-6xl font-extrabold text-on-primary leading-[1.1] tracking-tighter mb-6 uppercase">
+                    ¡Dale un ascenso a tu vida con ASCENSORES QUE OFRECEN LA MEJOR GARANTÍA DEL MERCADO!
+                </h1>
+<p class="text-on-primary/90 text-xl font-light mb-10 max-w-lg leading-relaxed">
+                    Más de 44 años respaldando tu inversión con ingeniería de precisión y tecnología de vanguardia.
+                </p>
+<button class="px-8 py-4 border-2 border-on-primary text-on-primary font-headline font-bold uppercase tracking-widest hover:bg-on-primary hover:text-on-surface transition-all duration-300 flex items-center gap-4">
+                    Conoce nuestra garantía <span class="material-symbols-outlined">arrow_forward</span>
+</button>
+</div>
+</div>
+<!-- Right: Floating Form -->
+<div class="hidden md:flex w-[40%] bg-surface-container-low items-center justify-center relative px-8">
+<!-- Decorative Background Element -->
+<div class="absolute -right-12 top-1/4 text-[12rem] font-headline font-black text-on-surface/[0.03] select-none text-vertical">
+                ESTILO
+            </div>
+<div class="glass-panel w-full max-w-md p-10 shadow-2xl relative z-10 border border-outline-variant/10">
+<h2 class="font-headline text-2xl font-bold text-on-surface mb-8 uppercase tracking-tighter border-l-4 border-primary pl-4">¿En qué podemos ayudarte?</h2>
+<form class="space-y-6">
+<div>
+<input class="w-full bg-transparent border-0 border-b-2 border-outline-variant focus:ring-0 focus:border-primary transition-colors py-3 px-0 font-body placeholder:text-on-surface/40" placeholder="Nombre completo" type="text"/>
+</div>
+<div class="grid grid-cols-2 gap-4">
+<input class="w-full bg-transparent border-0 border-b-2 border-outline-variant focus:ring-0 focus:border-primary transition-colors py-3 px-0 font-body placeholder:text-on-surface/40" placeholder="Teléfono" type="tel"/>
+<input class="w-full bg-transparent border-0 border-b-2 border-outline-variant focus:ring-0 focus:border-primary transition-colors py-3 px-0 font-body placeholder:text-on-surface/40" placeholder="Email" type="email"/>
+</div>
+<input class="w-full bg-transparent border-0 border-b-2 border-outline-variant focus:ring-0 focus:border-primary transition-colors py-3 px-0 font-body placeholder:text-on-surface/40" placeholder="Ciudad" type="text"/>
+<select class="w-full bg-transparent border-0 border-b-2 border-outline-variant focus:ring-0 focus:border-primary transition-colors py-3 px-0 font-body text-on-surface/60">
+<option>Tipo de Servicio</option>
+<option>Instalación</option>
+<option>Mantenimiento</option>
+<option>Modernización</option>
+</select>
+<textarea class="w-full bg-transparent border-0 border-b-2 border-outline-variant focus:ring-0 focus:border-primary transition-colors py-3 px-0 font-body placeholder:text-on-surface/40 resize-none" placeholder="Mensaje" rows="2"></textarea>
+<div class="flex items-center gap-3">
+<input class="rounded-none text-primary focus:ring-primary border-outline-variant" id="privacy" type="checkbox"/>
+<label class="text-xs text-on-surface/60" for="privacy">Acepto términos y condiciones de privacidad.</label>
+</div>
+<button class="w-full bg-primary text-on-primary font-headline font-bold py-5 uppercase tracking-widest hover:bg-primary-container transition-all active:scale-[0.98]">
+                        SOLICITAR ASESORÍA GRATUITA
+                    </button>
+</form>
+</div>
+</div>
+</header>
+<!-- Section 2: Experience -->
+<section class="py-24 bg-surface-container-low px-12 md:px-24">
+<div class="flex flex-col md:flex-row justify-between items-end mb-16 gap-8">
+<div class="max-w-2xl">
+<span class="text-primary font-headline font-bold uppercase tracking-widest text-sm mb-4 block">Trayectoria sólida</span>
+<h2 class="font-headline text-5xl font-black text-on-surface uppercase tracking-tighter">Nuestra experiencia</h2>
+</div>
+<div class="w-32 h-1 bg-primary mb-3"></div>
+</div>
+<div class="grid grid-cols-2 md:grid-cols-3 gap-0 border border-outline-variant/20">
+<!-- Metric Card -->
+<div class="p-12 bg-surface hover:bg-surface-bright transition-colors border-r border-b border-outline-variant/10 group">
+<p class="text-primary font-headline text-5xl font-black mb-2 group-hover:scale-110 transition-transform origin-left">+4.614</p>
+<p class="font-headline text-on-surface/60 uppercase text-sm font-bold tracking-widest">Clientes Satisfechos</p>
+</div>
+<div class="p-12 bg-surface hover:bg-surface-bright transition-colors border-r border-b border-outline-variant/10 group">
+<p class="text-primary font-headline text-5xl font-black mb-2 group-hover:scale-110 transition-transform origin-left">12.083</p>
+<p class="font-headline text-on-surface/60 uppercase text-sm font-bold tracking-widest">Equipos Instalados</p>
+</div>
+<div class="p-12 bg-surface hover:bg-surface-bright transition-colors border-b border-outline-variant/10 group">
+<p class="text-primary font-headline text-5xl font-black mb-2 group-hover:scale-110 transition-transform origin-left">717</p>
+<p class="font-headline text-on-surface/60 uppercase text-sm font-bold tracking-widest">Equipos Modernizados</p>
+</div>
+<div class="p-12 bg-surface hover:bg-surface-bright transition-colors border-r border-outline-variant/10 group">
+<p class="text-primary font-headline text-5xl font-black mb-2 group-hover:scale-110 transition-transform origin-left">10.016</p>
+<p class="font-headline text-on-surface/60 uppercase text-sm font-bold tracking-widest">Contratos Mantenimiento</p>
+</div>
+<div class="p-12 bg-surface hover:bg-surface-bright transition-colors border-r border-outline-variant/10 group">
+<p class="text-primary font-headline text-5xl font-black mb-2 group-hover:scale-110 transition-transform origin-left">87.99%</p>
+<p class="font-headline text-on-surface/60 uppercase text-sm font-bold tracking-widest">Retención de Clientes</p>
+</div>
+<div class="p-12 bg-surface hover:bg-surface-bright transition-colors group">
+<p class="text-primary font-headline text-5xl font-black mb-2 group-hover:scale-110 transition-transform origin-left">75.76%</p>
+<p class="font-headline text-on-surface/60 uppercase text-sm font-bold tracking-widest">Puntuación NPS</p>
+</div>
+</div>
+</section>
+<!-- Section 3: Why Choose Us -->
+<section class="py-24 bg-on-surface text-on-primary px-12 md:px-24 relative overflow-hidden">
+<!-- Background Monolith Text -->
+<div class="absolute left-0 bottom-0 text-[18rem] font-headline font-black text-on-primary/[0.02] select-none leading-none -mb-20">
+            FUJITEC
+        </div>
+<div class="relative z-10 mb-20 text-center">
+<h2 class="font-headline text-5xl font-black uppercase tracking-tighter mb-4">Por qué elegir Estilo Ingeniería</h2>
+<div class="w-24 h-1 bg-primary mx-auto"></div>
+</div>
+<div class="grid md:grid-cols-4 gap-6 relative z-10">
+<!-- Feature Card -->
+<div class="p-8 bg-on-surface border border-on-primary/10 hover:border-primary transition-all duration-500 group">
+<div class="mb-8">
+<span class="material-symbols-outlined text-primary text-5xl" style="font-variation-settings: 'FILL' 1;">stars</span>
+</div>
+<h3 class="font-headline text-xl font-bold uppercase mb-4 leading-tight">Representante exclusivo Fujitec</h3>
+<p class="text-on-primary/60 text-sm font-light leading-relaxed">Acceso directo a la tecnología japonesa más avanzada del mundo en transporte vertical.</p>
+</div>
+<div class="p-8 bg-on-surface border border-on-primary/10 hover:border-primary transition-all duration-500 group">
+<div class="mb-8">
+<span class="material-symbols-outlined text-primary text-5xl" style="font-variation-settings: 'FILL' 1;">engineering</span>
+</div>
+<h3 class="font-headline text-xl font-bold uppercase mb-4 leading-tight">Instalación propia</h3>
+<p class="text-on-primary/60 text-sm font-light leading-relaxed">No subcontratamos. Nuestros ingenieros certificados garantizan la máxima precisión operativa.</p>
+</div>
+<div class="p-8 bg-on-surface border border-on-primary/10 hover:border-primary transition-all duration-500 group">
+<div class="mb-8">
+<span class="material-symbols-outlined text-primary text-5xl" style="font-variation-settings: 'FILL' 1;">verified</span>
+</div>
+<h3 class="font-headline text-xl font-bold uppercase mb-4 leading-tight">Certificaciones internacionales</h3>
+<p class="text-on-primary/60 text-sm font-light leading-relaxed">Cumplimos con los estándares ISO y normativas técnicas más estrictas del mercado global.</p>
+</div>
+<div class="p-8 bg-on-surface border border-on-primary/10 hover:border-primary transition-all duration-500 group">
+<div class="mb-8">
+<span class="material-symbols-outlined text-primary text-5xl" style="font-variation-settings: 'FILL' 1;">payments</span>
+</div>
+<h3 class="font-headline text-xl font-bold uppercase mb-4 leading-tight">Mejor relación calidad/precio</h3>
+<p class="text-on-primary/60 text-sm font-light leading-relaxed">Optimizamos su inversión con equipos de larga vida útil y bajos costos de mantenimiento.</p>
+</div>
+</div>
+</section>
+<!-- Section 4: Solutions -->
+<section class="py-24 bg-surface-container px-12 md:px-24">
+<div class="mb-16">
+<h2 class="font-headline text-5xl font-black text-on-surface uppercase tracking-tighter mb-4">Soluciones para todos los sectores</h2>
+<p class="text-on-surface-variant font-medium tracking-widest uppercase text-sm">Proyectos emblemáticos en toda Colombia</p>
+</div>
+<div class="grid md:grid-cols-3 gap-8">
+<!-- Project Card -->
+<div class="relative h-[500px] overflow-hidden group cursor-pointer">
+<img class="w-full h-full object-cover grayscale transition-transform duration-700 group-hover:scale-110 group-hover:grayscale-0" data-alt="contemporary glass and steel institutional building in Bucaramanga with sleek architectural lines and modern lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAqhxpd6R5PU_6-yBwCr8tJne37ILNTW4KiFQ1-THQfJif0KlvKsMlRsbvijxhSL2JPeFoMCai7E4rMLi2zB7z6BTfjLeweL2Pa615-WcDvZMzVJ0fCiRcRGrh9i1Xmgf5uKJelHhOT5R4gU689OlCiouDapiJH4M8jyvDwjvvp_kdlYpp1fuHer4x0VGeuEHWWOF6XM9bQ7fLFdhwaRcw7HYZaV6JlLvtwKFHspffoREuSusPAer1Ju8P6RCKBSgpMdYwwQtAu6H0"/>
+<div class="absolute inset-0 bg-gradient-to-t from-on-surface via-on-surface/40 to-transparent"></div>
+<div class="absolute bottom-0 left-0 p-8 w-full">
+<h3 class="font-headline text-2xl font-bold text-on-primary uppercase mb-2">Institucionales</h3>
+<p class="text-on-primary/70 text-sm mb-6">Sede Administrativa, Bucaramanga</p>
+<div class="w-full h-1 bg-primary scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-500"></div>
+</div>
+</div>
+<div class="relative h-[500px] overflow-hidden group cursor-pointer">
+<img class="w-full h-full object-cover grayscale transition-transform duration-700 group-hover:scale-110 group-hover:grayscale-0" data-alt="luxury residential skyscraper The Icon in Barranquilla against clear blue sky featuring modern balcony designs" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDCRgtKNgzHQFMJNCm1UoVNten4R3EVv24Vef0aMhU5d7ad9bGbgreTioW3Q2LaSYCO8HYRcKmzdMpqkc73LC4YDX8LBNcfGf3SIF6B7QzteMzpK04dEKME7GkWDM65968owAgk3tWRgsp2-WM1WKOxMuu-88C5UYqcXb_6W7n71tXEC-OMhdcUUW3FsUgta1rDBTfhV9ok6eW5frB-MR7E-cR_4bSZ0vBpANx_5fuFDiSVO1lHqDc-wxvn4HDjbMw2HTf4prbnmwk"/>
+<div class="absolute inset-0 bg-gradient-to-t from-on-surface via-on-surface/40 to-transparent"></div>
+<div class="absolute bottom-0 left-0 p-8 w-full">
+<h3 class="font-headline text-2xl font-bold text-on-primary uppercase mb-2">Residencial</h3>
+<p class="text-on-primary/70 text-sm mb-6">The Icon, Barranquilla</p>
+<div class="w-full h-1 bg-primary scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-500"></div>
+</div>
+</div>
+<div class="relative h-[500px] overflow-hidden group cursor-pointer">
+<img class="w-full h-full object-cover grayscale transition-transform duration-700 group-hover:scale-110 group-hover:grayscale-0" data-alt="modern shopping mall Salitre Plaza in Bogota with bright atrium interior and high-traffic circulation areas" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDQDFFFVgEvtxaa7K_X3ncoHid84jFEL0FtAw9CyVbluawEzyo-P2qH6dUUOQIyPHij3fxLxnmN-vsIi-wc9XK-jCCzaOea87BZyeDBNYuOlJjHlnRniddrmOVyiP15Qbvq6H0sAfu9Z1oP50gCVFvstmTQw6cj-QXwykDx8uho-ALs71jsi4pYw6K9qMWsFLBb1YtArTC9ms72ksrXyZyV6T2sEKU73_s1L6zkTwoTkUb2CQHlHdRXtO_T3idoU97WM7kPFmeVFZI"/>
+<div class="absolute inset-0 bg-gradient-to-t from-on-surface via-on-surface/40 to-transparent"></div>
+<div class="absolute bottom-0 left-0 p-8 w-full">
+<h3 class="font-headline text-2xl font-bold text-on-primary uppercase mb-2">Comercial</h3>
+<p class="text-on-primary/70 text-sm mb-6">Salitre Plaza, Bogotá</p>
+<div class="w-full h-1 bg-primary scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-500"></div>
+</div>
+</div>
+</div>
+</section>
+<!-- Trust Elements & Sticky Actions -->
+<div class="fixed bottom-8 right-8 z-[60] flex flex-col gap-4 items-end">
+<!-- WhatsApp -->
+<a class="w-14 h-14 bg-[#25D366] text-white flex items-center justify-center rounded-full shadow-xl hover:scale-110 transition-transform" href="#">
+<svg class="w-8 h-8 fill-current" viewbox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"></path></svg>
+</a>
+</div>
+<!-- Contact Vertical Tab -->
+<div class="fixed right-0 top-1/2 -translate-y-1/2 z-[60]">
+<button class="bg-primary text-on-primary py-6 px-3 flex flex-col items-center gap-4 hover:bg-primary-container transition-colors group">
+<span class="material-symbols-outlined group-hover:animate-bounce">phone_in_talk</span>
+<span class="text-vertical font-headline font-black uppercase tracking-widest text-sm">CONTÁCTANOS</span>
+</button>
+</div>
+<!-- Emergency Line Banner -->
+<div class="bg-primary-container text-on-primary-container py-3 px-12 flex justify-center items-center gap-6">
+<span class="material-symbols-outlined font-bold">warning</span>
+<p class="font-headline font-bold uppercase tracking-[0.2em] text-sm">LÍNEA NACIONAL DE EMERGENCIAS 24/7: <span class="text-2xl ml-2">#371</span></p>
+</div>
+<!-- Footer -->
+<footer class="bg-[#1c1c1a] dark:bg-[#000000] w-full border-none">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-12 px-12 py-20 w-full tonal-shift bg-[#1c1c1a]">
+<!-- Column 1: Brand -->
+<div class="space-y-6">
+<div class="text-xl font-bold font-['Space_Grotesk'] text-[#fcf9f5] uppercase tracking-tighter">Estilo Ingeniería</div>
+<p class="text-[#fcf9f5]/60 text-sm font-['Manrope'] leading-relaxed">
+                    Líderes en transporte vertical en Colombia. Representantes exclusivos de Fujitec. Ingeniería que eleva tu mundo.
+                </p>
+</div>
+<!-- Column 2: Quick Links -->
+<div class="space-y-4">
+<h4 class="text-[#c8102e] font-headline font-bold uppercase text-xs tracking-widest">Navegación</h4>
+<ul class="space-y-3 font-['Manrope'] text-sm tracking-wide">
+<li><a class="text-[#fcf9f5]/60 hover:text-[#c8102e] transition-all duration-200 uppercase" href="#">SOLUCIONES</a></li>
+<li><a class="text-[#fcf9f5]/60 hover:text-[#c8102e] transition-all duration-200 uppercase" href="#">PROYECTOS</a></li>
+<li><a class="text-[#fcf9f5]/60 hover:text-[#c8102e] transition-all duration-200 uppercase" href="#">TECNOLOGÍA</a></li>
+<li><a class="text-[#fcf9f5]/60 hover:text-[#c8102e] transition-all duration-200 uppercase" href="#">NOSOTROS</a></li>
+</ul>
+</div>
+<!-- Column 3: Corporate -->
+<div class="space-y-4">
+<h4 class="text-[#c8102e] font-headline font-bold uppercase text-xs tracking-widest">Corporativo</h4>
+<ul class="space-y-3 font-['Manrope'] text-sm tracking-wide">
+<li><a class="text-[#fcf9f5]/60 hover:text-[#c8102e] transition-all duration-200 uppercase" href="#">POLÍTICA DE PRIVACIDAD</a></li>
+<li><a class="text-[#fcf9f5]/60 hover:text-[#c8102e] transition-all duration-200 uppercase" href="#">TÉRMINOS DE SERVICIO</a></li>
+<li><a class="text-[#fcf9f5]/60 hover:text-[#c8102e] transition-all duration-200 uppercase" href="#">MAPA DEL SITIO</a></li>
+<li><a class="text-[#fcf9f5]/60 hover:text-[#c8102e] transition-all duration-200 uppercase" href="#">TRABAJA CON NOSOTROS</a></li>
+</ul>
+</div>
+<!-- Column 4: Location -->
+<div class="space-y-4">
+<h4 class="text-[#c8102e] font-headline font-bold uppercase text-xs tracking-widest">Sede Principal</h4>
+<p class="text-[#fcf9f5]/60 text-sm font-['Manrope'] leading-relaxed">
+                    Bogotá, D.C. Colombia<br/>
+                    Calle 100 # 19-61<br/>
+                    PBX: (601) 743 0000
+                </p>
+<div class="flex gap-4 pt-4">
+<span class="material-symbols-outlined text-[#fcf9f5]/40 hover:text-[#c8102e] cursor-pointer transition-colors">social_leaderboard</span>
+<span class="material-symbols-outlined text-[#fcf9f5]/40 hover:text-[#c8102e] cursor-pointer transition-colors">video_library</span>
+</div>
+</div>
+</div>
+<div class="border-t border-white/5 px-12 py-8 flex flex-col md:flex-row justify-between items-center gap-4">
+<p class="text-[#fcf9f5]/40 font-['Manrope'] text-xs tracking-wide">© 2024 ESTILO INGENIERÍA. TODOS LOS DERECHOS RESERVADOS.</p>
+<p class="text-[#fcf9f5]/40 font-['Manrope'] text-xs uppercase tracking-widest">Elevando estándares desde 1980</p>
+</div>
+</footer>
+</body></html>
